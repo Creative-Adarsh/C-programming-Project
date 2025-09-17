@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+
 
 void main(){
     int Month_Number;
@@ -65,4 +65,5 @@ void main(){
     }
 
     getch();
+
 }
