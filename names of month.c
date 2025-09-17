@@ -64,5 +64,6 @@ void main(){
     {
         goto read;
     }
-    
+
+    getch();
 }
