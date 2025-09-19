@@ -24,7 +24,7 @@ void main(){
     }
     if (isPrime)
     {
-        printf("%d is a prome number", num);
+        printf("%d is a prime number", num);
     }
     else
     {
@@ -33,4 +33,5 @@ void main(){
     
     
     getch();
+
 }
