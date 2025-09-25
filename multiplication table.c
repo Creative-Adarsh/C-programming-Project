@@ -1,20 +1,15 @@
 #include <stdio.h>
 
 void main(){
-    int table, i;
-    printf("Table from 2 to 10\nWhich table you want to print: ");
-    if (scanf("%d",&table) != 1)
-    {
-        printf("Invalid input");
-        getch();
-    }
-    
+    int  i, a;
+    printf("Enater number for table: ");
+    scanf("%d",&a);
     for (i = 1; i <= 10; i++)
     {
-        printf("%d * %d = %d\n",table,i,table*i);
+        printf("%d * %d = %d\n", a, i, a*i);
     }
-    
-    
+
     
     getch();
+
 }
