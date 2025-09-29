@@ -1,30 +1,21 @@
 #include <stdio.h>
-#include <math.h>
-
 void main(){
-    int num, a, b, c,num1, num2, num3;
-    printf("Enter a 3 digit integer: ");
-    scanf("%d",&num);
-
-    a = num % 10;
-    num1 = num / 10;
-
-    b = num1 % 10;
-    num2 = num1 / 10;
-
-    c = num2 % 10;
-    num3 = c / 10;
-
-    if ((pow(a,3))+(pow(b,3))+(pow(c,3)) == num)
-    {
-        printf("%d is an armstrong number", num);
+    int n, r, c, arm=0;
+    printf("Enter an integer: ");
+    scanf("%d",&n);
+    c=n;
+    while(n > 0){
+        r = n%10;
+        arm = (r * r * r) + arm;
+        n = n/10;
+        
     }
-    else
-    {
-        printf("%d is not a armstrong number", num);
+    if (arm == c){
+        printf("%d is an armstrong number",c);
+        
     }
-    
-    
-
-    getch();
+    else{
+        printf("%d is not an armstrong number",c);
+    }
+   getch();
 }
