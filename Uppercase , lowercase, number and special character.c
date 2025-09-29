@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 void main(){
     char letter;
     printf("Enter any thing:");
@@ -24,4 +24,5 @@ void main(){
     
     
     getch();
+
 }
